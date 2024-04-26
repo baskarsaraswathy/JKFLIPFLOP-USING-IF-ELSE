@@ -1,4 +1,4 @@
-# JKFLIPFLOP-USING-IF-ELSE
+# EXP 07-JKFLIPFLOP-USING-IF-ELSE
 
 **AIM:** 
 
@@ -33,9 +33,11 @@ By using three variable K-Map, we can get the simplified expression for next sta
 The maximum possible groupings of adjacent ones are already shown in the figure. Therefore, the simplified expression for next state Qt+1t+1 is Q(t+1)=JQ(t)′+K′Q(t)Q(t+1)=JQ(t)′+K′Q(t)
 
 **Procedure**
-
-
-
+STEP 1:Type the program in Quartus software.
+STEP 2:Compile and run the program.
+STEP 3:Generate the RTL schematic and save the logic diagram.
+STEP 4:Create nodes for inputs and outputs to generate the timing diagram.
+STEP 5:For different input combinations generate the timing diagram
 **PROGRAM**
 ```
 module jkflipflop(q, qb,j,k,clock,reset);
@@ -72,9 +74,10 @@ else
 end	
 endmodule
 ```
+Program for logic gates and verify its truth table in quartus using Verilog programming.
+
 # Developed by : BASKAR J 
 # RegisterNumber : 212223040025
-
 
 **RTL LOGIC FOR FLIPFLOPS**
 ![image](https://github.com/baskarsaraswathy/JKFLIPFLOP-USING-IF-ELSE/assets/144871005/cdeff091-3d3d-44f9-8972-6ea69067cd38)
